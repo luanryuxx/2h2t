@@ -1,34 +1,50 @@
-.preto {
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     background-color: black;
-    grid-area: preto;
 }
-.vermelho {
-    background-color: red;
-    grid-area: vermelho;
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.azul {
-
-    background-color: blue;
-    grid-area: azul;
-}
-.rosa {
-    background-color: pink;
-    grid-area: rosa;
-}
-.cinza {
-    background-color: #333;
-    grid-area: cinza;
-}
-.verde {
-    background-color: green;
-    grid-area: verde;
-}
-.site{
+.conteudo{
     display: grid;
-    grid-template-columns: 10% 70% 20%;
-    grid-template-areas: 
-        "rosa rosa rosa"
-        "azul cinza verde"
-        "azul cinza vermelho"
-        "preto preto preto";
+ grid-template-columns: 20% 20% 20% 20% ;
+ justify-content: center;    
 }
+.meu-site{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-areas:
+     "menu menu menu" 
+     "lado principal principal"
+     "rodape rodape rodape"
+    ;
+}
+ .menu{
+    height: 10vh;
+    background-color: rgb(139, 0, 0);
+    grid-area: menu;
+ 
+ }
+ .lado{
+    height: 80vh;
+    background-color: rgba(255, 230, 0, 0.897);
+     grid-area: lado;
+ }
+ .principal{
+    height: 80vh;
+    background-color: rgba(8, 219, 212, 0.836);
+    grid-area: principal;
+ }
+ .rodape{
+    height: 10vh;
+     background-color: rgba(133, 6, 252, 0.801);
+     grid-area: rodape; 
+     
+ }

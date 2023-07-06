@@ -1,2 +1,4 @@
-# aulas d segundo trimetre
-erica - n°08
+# Aulas do segundo trimestre
+## Tema: Música
+### Responsavel: 23
+Luan - 23
