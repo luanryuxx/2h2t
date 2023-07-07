@@ -10,6 +10,7 @@
 }
 body{
     background-color: rgba(255, 255, 255, 0.822);
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -134,6 +135,11 @@ ul{
 .img-ini {
     width: 100%;
 }
+#veigh{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
 @media (min-width: 768px) {
     .nav{
         max-height: none;
@@ -164,5 +170,11 @@ ul{
         "estilo estilo"
         "solo grupo"
         "banda app";
+    }
+    @media screen and (max-widht: 768px){
+      .veigh {
+        width: 100%;
+        flex-direction: column;
+      }  
     }
 }
