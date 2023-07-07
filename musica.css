@@ -172,7 +172,7 @@ ul{
         "banda app";
     }
     @media screen and (max-widht: 768px){
-      .veigh {
+      #veigh {
         width: 100%;
         flex-direction: column;
       }  
