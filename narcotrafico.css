@@ -4,9 +4,9 @@
     overflow: 0;
 }
 :root{
-    --fundo: rgb(140, 0, 255);
+    --fundo: rgb(21, 177, 0);
     --fonte: rgb(255, 255, 255);
-    --hover: rgb(124, 124, 124);
+    --hover: rgb(116, 116, 116);
 }
 body{
     background-color: rgba(255, 255, 255, 0.822);
@@ -29,7 +29,6 @@ ul{
    display: inline-block;
    color: var(--fundo);
    font-size: 32px;
-  
 }
 #logo{
   height: 10vh;
@@ -104,7 +103,7 @@ ul{
 }
 .rodape {
     width: 100vw;
-    background-color: rgb(188, 204, 221);
+    background-color: rgb(143, 143, 143);
     text-align: center;
 }
 
@@ -134,11 +133,6 @@ ul{
 }
 .img-ini {
     width: 100%;
-}
-#veigh{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
 }
 @media (min-width: 768px) {
     .nav{
@@ -170,11 +164,5 @@ ul{
         "estilo estilo"
         "solo grupo"
         "banda app";
-    }
-    @media screen and (max-widht: 768px){
-      #veigh {
-        width: 100%;
-        flex-direction: column;
-      }  
-    }
+}
 }
