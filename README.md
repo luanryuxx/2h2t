@@ -1,4 +1,4 @@
 # Aulas do segundo trimestre
-## Tema: Narco Tráfico 
+## Tema: Narcotráfico 
 ### Responsavel: 23
 Luan - 23
