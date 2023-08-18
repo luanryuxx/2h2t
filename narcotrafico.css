@@ -6,7 +6,8 @@
 :root{
     --fundo: rgb(21, 177, 0);
     --fonte: rgb(255, 255, 255);
-    --hover: rgb(116, 116, 116);
+    --hover: rgb(139, 139, 139);
+    --cor-clara-fundo: rgb(0, 255, 191);
 }
 body{
     background-color: rgba(255, 255, 255, 0.822);
@@ -106,34 +107,15 @@ ul{
     background-color: rgb(143, 143, 143);
     text-align: center;
 }
+div[class^="item"]{
+    background-color: var(--cor-clara-fundo);
+    padding: 2px;
+    width: calc(100vw - 4px);
+    height: 50vh;
+    margin: 2px;
+    grid-area: "item";
+}
 
-.desc-estilo {
-    width: 100%;
-    background-color: tan;
-    grid-area: estilo;
-}
-.desc-solo {
-    width: 100%;
-    background-color: teal;
-    grid-area: solo;
-}
-.desc-grupo {
-    width: 100%;
-    background-color: tan;
-    grid-area: grupo;
-}
-.desc-banda {
-    width: 100%;
-    background-color: teal;
-    grid-area: banda;
-}
-.desc-app {
-    width: 100%;
-    background-color: tan;
-}
-.img-ini {
-    width: 100%;
-}
 @media (min-width: 768px) {
     .nav{
         max-height: none;
